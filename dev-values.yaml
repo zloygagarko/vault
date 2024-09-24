@@ -1,0 +1,10 @@
+server:
+  # Enable the Vault server
+  enabled: true
+
+  # Set the service type to LoadBalancer
+  service:
+    type: LoadBalancer
+    annotations: {}
+    labels: {}
+    externalTrafficPolicy: Cluster
